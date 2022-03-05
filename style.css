@@ -1,0 +1,167 @@
+:root {
+    --accent: #174180;
+    --accent-light: #3764a7;
+    --pure-white: #fff;
+
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+.header-navigation {
+    padding: 10px 0;
+    background-color: #174180;
+    color: aliceblue;
+    /* justify-content: space-between; */
+}
+
+.header-logo {
+    float: left;
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    font-size: 0px;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 0px;
+    margin: 0 0 0 50px;
+}
+
+.menu-link {
+    text-transform: uppercase;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.intro {
+    padding: 60px 0;
+}
+
+.intro-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-left {
+    width: 30%;
+}
+
+.intro-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.intro-right {
+    width: 60%;
+}
+
+.intro-right h1,
+.intro-right h3 {
+    margin: 0 0 10px;
+}
+
+.contacts {
+    margin-bottom: 60px;
+}
+
+.contacts ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contacts li {
+    text-align: center;
+}
+
+.skills {
+    padding: 60px 0;
+    color: var(--pure-white);
+    background-color: var( --accent);
+}
+
+.skills ul {
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+
+.skills li {
+    padding: 10px 15px;
+    background-color: var(--accent-light);
+    border-radius: 5px;
+}
+
+.code-example {
+    text-align: center;
+}
+
+.code-example p {
+    font-style: italic;
+}
+
+.code-example b {
+    font-style: normal;
+}
+
+.code-example pre {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: var(--pure-white);
+    background-color: var(--accent);
+    text-align: left;
+    border-radius: 8px;
+}
+
+
+
+
+
