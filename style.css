@@ -161,6 +161,14 @@ body {
     border-radius: 8px;
 }
 
+.Education {
+    text-align: center;
+    color: var(--pure-white);
+    background-color: var( --accent);
+}
+
+
+
 
 
 
